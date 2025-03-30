@@ -1,10 +1,33 @@
 {
   "files": {
-    "main.js": "/crochet/static/js/main.3eaace6c.js",
+    "main.js": "/crochet/static/js/main.332c917d.js",
+    "static/media/bear1.jpg": "/crochet/static/media/bear1.a7f9b6345189ad212793.jpg",
+    "static/media/doll_ukr.jpg": "/crochet/static/media/doll_ukr.befefdacf3aa1136543e.jpg",
+    "static/media/hedgehog.jpg": "/crochet/static/media/hedgehog.52fcda78ab5b9cf16da3.jpg",
+    "static/media/cat_grey.jpg": "/crochet/static/media/cat_grey.05c29600eed5934b933f.jpg",
+    "static/media/elephant.jpg": "/crochet/static/media/elephant.7a5be04ca98578eeafe8.jpg",
+    "static/media/bunny.jpg": "/crochet/static/media/bunny.52afc212e547e3fd7521.jpg",
+    "static/media/bebi_yoda.jpg": "/crochet/static/media/bebi_yoda.1f27c89a216c3c4255fe.jpg",
+    "static/media/penguin.jpg": "/crochet/static/media/penguin.418e4103644939ca34fe.jpg",
+    "static/media/duck1.jpg": "/crochet/static/media/duck1.2e3e90ac2ad1fb7f8f52.jpg",
+    "static/media/turtle.jpg": "/crochet/static/media/turtle.8c1f926163094ed376f7.jpg",
+    "static/media/pig.jpg": "/crochet/static/media/pig.9c43da47f35cf6ff1b5d.jpg",
+    "static/media/bee_big.jpg": "/crochet/static/media/bee_big.f0278b9276bfba74edaa.jpg",
+    "static/media/duo.jpg": "/crochet/static/media/duo.af7747c99c88c0b8f6e7.jpg",
+    "static/media/lamb.jpg": "/crochet/static/media/lamb.89b1aebd39e3cfa0e431.jpg",
+    "static/media/cat1.jpg": "/crochet/static/media/cat1.2742409b97109db81236.jpg",
+    "static/media/duck.jpg": "/crochet/static/media/duck.b0ea6b871671855ed1bf.jpg",
+    "static/media/whale.jpg": "/crochet/static/media/whale.36374a1868e156cde609.jpg",
+    "static/media/dino2.jpg": "/crochet/static/media/dino2.178b111c303f1684aa32.jpg",
+    "static/media/dino.jpg": "/crochet/static/media/dino.67b19e244beeff309f94.jpg",
+    "static/media/dog.jpg": "/crochet/static/media/dog.5054c467738df2ed65ab.jpg",
+    "static/media/elephant2.jpg": "/crochet/static/media/elephant2.b0f33feab1346ca8cec1.jpg",
+    "static/media/slope.jpg": "/crochet/static/media/slope.732cb65746d5d993cbfb.jpg",
+    "static/media/dog2.jpg": "/crochet/static/media/dog2.928327a02e48f59f56c4.jpg",
     "index.html": "/crochet/index.html",
-    "main.3eaace6c.js.map": "/crochet/static/js/main.3eaace6c.js.map"
+    "main.332c917d.js.map": "/crochet/static/js/main.332c917d.js.map"
   },
   "entrypoints": [
-    "static/js/main.3eaace6c.js"
+    "static/js/main.332c917d.js"
   ]
 }
