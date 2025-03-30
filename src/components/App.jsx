@@ -1,16 +1,16 @@
-export const App = () => {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProductsPage from 'pages/ProductsPage';
+import HomePage from 'pages/HomePage'; // Створіть цей компонент, якщо його ще немає
+
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/crochet" element={<ProductsPage />} />
+      </Routes>
+    </Router>
   );
-};
+}
+
+export default App;
