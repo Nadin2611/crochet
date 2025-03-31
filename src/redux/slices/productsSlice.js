@@ -10,6 +10,7 @@ import img8 from '../../assets/images/slope.jpg';
 import img9 from '../../assets/images/bunny.jpg';
 import img10 from '../../assets/images/penguin.jpg';
 import img11 from '../../assets/images/cat_grey.jpg';
+import img12 from '../../assets/images/cat_grey_small.jpg';
 import img13 from '../../assets/images/turtle.jpg';
 import img14 from '../../assets/images/whale.jpg';
 import img15 from '../../assets/images/capibara.jpg';
@@ -17,13 +18,17 @@ import img16 from '../../assets/images/elephant2.jpg';
 import img17 from '../../assets/images/elephant.jpg';
 import img18 from '../../assets/images/duck.jpg';
 import img19 from '../../assets/images/duck1.jpg';
+import img22 from '../../assets/images/snake.jpg';
+import img23 from '../../assets/images/frog1.jpg';
 import img24 from '../../assets/images/dog.jpg';
 import img25 from '../../assets/images/dog2.jpg';
 import img26 from '../../assets/images/octopus1.jpg';
 import img27 from '../../assets/images/octopus.jpg';
+import img28 from '../../assets/images/heart.jpg';
 import img29 from '../../assets/images/frog.jpg';
 import img30 from '../../assets/images/hedgehog.jpg';
 import img32 from '../../assets/images/doll_ukr.jpg';
+import img33 from '../../assets/images/doll.jpg';
 import img34 from '../../assets/images/lamb.jpg';
 import img35 from '../../assets/images/cat1.jpg';
 import img36 from '../../assets/images/cat2.jpg';
@@ -48,7 +53,7 @@ const initialState = {
     },
     { id: 10, name: 'Пінгвінчик', price: 700, image: img10, pattern: '' },
     { id: 11, name: 'Котики', price: 900, image: img11, pattern: '' },
-    { id: 12, name: 'Котик менший', price: 500, image: '', pattern: '' },
+    { id: 12, name: 'Котик менший', price: 500, image: img12, pattern: '' },
     { id: 13, name: 'Черепашки', price: 500, image: img13, pattern: '' },
     { id: 14, name: 'Кити', price: 300, image: img14, pattern: '' },
     { id: 15, name: 'Капібара', price: 250, image: img15, pattern: '' },
@@ -57,8 +62,8 @@ const initialState = {
     { id: 18, name: 'Гусь', price: 700, image: img18, pattern: '' },
     { id: 19, name: 'Гусь менший', price: 350, image: img19, pattern: '' },
     { id: 21, name: 'Кіт', price: 300, image: '', pattern: '' },
-    { id: 22, name: 'Змійка', price: 450, image: '', pattern: '' },
-    { id: 23, name: 'Жаба', price: 350, image: '', pattern: '' },
+    { id: 22, name: 'Змійка', price: 450, image: img22, pattern: '' },
+    { id: 23, name: 'Жаба', price: 350, image: img23, pattern: '' },
     { id: 24, name: 'Пес-куля', price: 600, image: img24, pattern: '' },
     { id: 25, name: 'Пес-куля менший', price: 550, image: img25, pattern: '' },
     { id: 26, name: 'Восьминіг', price: 250, image: img26, pattern: '' },
@@ -69,12 +74,12 @@ const initialState = {
       image: img27,
       pattern: '',
     },
-    { id: 28, name: 'Серце', price: 150, image: '', pattern: '' },
+    { id: 28, name: 'Серце', price: 150, image: img28, pattern: '' },
     { id: 29, name: 'Жабки', price: '***', image: img29, pattern: '' },
     { id: 30, name: 'Їжачок', price: 350, image: img30, pattern: '' },
     { id: 31, name: 'Донат', price: 150, image: '', pattern: '' },
     { id: 32, name: 'Україночки', price: 1500, image: img32, pattern: '' },
-    { id: 33, name: 'Ляльки', price: 1000, image: '', pattern: '' },
+    { id: 33, name: 'Ляльки', price: 1000, image: img33, pattern: '' },
     {
       id: 34,
       name: 'Баранчики великі',

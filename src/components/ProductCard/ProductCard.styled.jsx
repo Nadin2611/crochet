@@ -6,6 +6,12 @@ export const Card = styled.div`
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  background-color: white;
+
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.3);
+  }
 `;
 
 export const ProductImage = styled.img`
@@ -13,6 +19,11 @@ export const ProductImage = styled.img`
   max-height: 160px;
   object-fit: contain;
   border-radius: 10px;
+  transition: transform 0.5s ease;
+
+  // &:hover {
+  //   transform: scale(3);
+  // }
 `;
 
 export const ProductTitle = styled.h3`
