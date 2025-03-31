@@ -1,20 +1,17 @@
 import { GridContainer } from 'components/Container/GridContainer.styled';
 import ProductCard from 'components/ProductCard';
-import React from 'react';
 import { useSelector } from 'react-redux';
 
-const ProductsPage = () => {
+const PatternPage = () => {
   const products = useSelector(state => state.products.items);
 
   return (
     <GridContainer>
-      {products.map(product => {
-        return (
-          <ProductCard key={product.id} product={product} showPrice={true} />
-        );
-      })}
+      {products.map(product => (
+        <ProductCard key={product.id} product={product} showPattern={true} />
+      ))}
     </GridContainer>
   );
 };
 
-export default ProductsPage;
+export default PatternPage;
