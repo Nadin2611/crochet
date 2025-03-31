@@ -39,6 +39,7 @@ import img40 from '../../assets/images/bunny3.jpg';
 import img41 from '../../assets/images/bunny4.jpg';
 import img42 from '../../assets/images/bunny5.jpg';
 import img43 from '../../assets/images/turtle_big.jpg';
+import img44 from '../../assets/images/smurf.jpg';
 
 // const initialState = {
 //   items: [
@@ -276,6 +277,7 @@ const initialState = {
     { id: 40, name: 'Серце', price: 150, image: img28, pattern: '' },
     { id: 41, name: 'Донат', price: 150, image: '', pattern: '' },
     { id: 42, name: 'Дуо', price: 350, image: img2, pattern: '' },
+    { id: 43, name: 'Смурфик', price: '***', image: img44, pattern: '' },
   ],
 };
 const productsSlice = createSlice({
