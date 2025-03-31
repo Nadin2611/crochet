@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crochet/static/css/main.d7696266.css",
-    "main.js": "/crochet/static/js/main.c240852e.js",
+    "main.js": "/crochet/static/js/main.cc8abac4.js",
     "static/media/bunny4.jpg": "/crochet/static/media/bunny4.0f0933f73d4e4f0ca85b.jpg",
     "static/media/bunny3.jpg": "/crochet/static/media/bunny3.2d3a642d26c352488428.jpg",
     "static/media/bunny5.jpg": "/crochet/static/media/bunny5.d0aa294030cb89c91e32.jpg",
@@ -31,6 +31,7 @@
     "static/media/whale.jpg": "/crochet/static/media/whale.36374a1868e156cde609.jpg",
     "static/media/cat2.jpg": "/crochet/static/media/cat2.6df0dc0a628ed4d16113.jpg",
     "static/media/octopus1.jpg": "/crochet/static/media/octopus1.41b7e3f022fbfd4279f9.jpg",
+    "static/media/smurf.jpg": "/crochet/static/media/smurf.1cf7b513bb8d67061d3f.jpg",
     "static/media/frog.jpg": "/crochet/static/media/frog.64c2120956930402fda1.jpg",
     "static/media/bee.jpg": "/crochet/static/media/bee.00445f19bd387f73201c.jpg",
     "static/media/frog1.jpg": "/crochet/static/media/frog1.3d8de79a552be0776ced.jpg",
@@ -49,10 +50,10 @@
     "static/media/slick.woff": "/crochet/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/crochet/index.html",
     "main.d7696266.css.map": "/crochet/static/css/main.d7696266.css.map",
-    "main.c240852e.js.map": "/crochet/static/js/main.c240852e.js.map"
+    "main.cc8abac4.js.map": "/crochet/static/js/main.cc8abac4.js.map"
   },
   "entrypoints": [
     "static/css/main.d7696266.css",
-    "static/js/main.c240852e.js"
+    "static/js/main.cc8abac4.js"
   ]
 }
