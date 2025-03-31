@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/crochet/static/css/main.d7696266.css",
-    "main.js": "/crochet/static/js/main.78de51c7.js",
+    "main.js": "/crochet/static/js/main.c240852e.js",
+    "static/media/bunny4.jpg": "/crochet/static/media/bunny4.0f0933f73d4e4f0ca85b.jpg",
+    "static/media/bunny3.jpg": "/crochet/static/media/bunny3.2d3a642d26c352488428.jpg",
+    "static/media/bunny5.jpg": "/crochet/static/media/bunny5.d0aa294030cb89c91e32.jpg",
+    "static/media/bunny2.jpg": "/crochet/static/media/bunny2.1e8737b006156ea20a0e.jpg",
     "static/media/bear1.jpg": "/crochet/static/media/bear1.a7f9b6345189ad212793.jpg",
     "static/media/doll_ukr.jpg": "/crochet/static/media/doll_ukr.befefdacf3aa1136543e.jpg",
     "static/media/heart.jpg": "/crochet/static/media/heart.611c7757338687f649be.jpg",
@@ -13,6 +17,8 @@
     "static/media/penguin.jpg": "/crochet/static/media/penguin.418e4103644939ca34fe.jpg",
     "static/media/duck1.jpg": "/crochet/static/media/duck1.2e3e90ac2ad1fb7f8f52.jpg",
     "static/media/turtle.jpg": "/crochet/static/media/turtle.8c1f926163094ed376f7.jpg",
+    "static/media/turtle_big.jpg": "/crochet/static/media/turtle_big.a07b3d88c829ec5b8ecb.jpg",
+    "static/media/bunny_bear.jpg": "/crochet/static/media/bunny_bear.e9df71647e616f4e840e.jpg",
     "static/media/pig.jpg": "/crochet/static/media/pig.9c43da47f35cf6ff1b5d.jpg",
     "static/media/bee_big.jpg": "/crochet/static/media/bee_big.f0278b9276bfba74edaa.jpg",
     "static/media/duo.jpg": "/crochet/static/media/duo.af7747c99c88c0b8f6e7.jpg",
@@ -43,10 +49,10 @@
     "static/media/slick.woff": "/crochet/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/crochet/index.html",
     "main.d7696266.css.map": "/crochet/static/css/main.d7696266.css.map",
-    "main.78de51c7.js.map": "/crochet/static/js/main.78de51c7.js.map"
+    "main.c240852e.js.map": "/crochet/static/js/main.c240852e.js.map"
   },
   "entrypoints": [
     "static/css/main.d7696266.css",
-    "static/js/main.78de51c7.js"
+    "static/js/main.c240852e.js"
   ]
 }
