@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/crochet/static/css/main.d7696266.css",
-    "main.js": "/crochet/static/js/main.cc8abac4.js",
+    "main.css": "/crochet/static/css/main.577be3c9.css",
+    "main.js": "/crochet/static/js/main.5f2fc254.js",
     "static/media/bunny4.jpg": "/crochet/static/media/bunny4.0f0933f73d4e4f0ca85b.jpg",
     "static/media/bunny3.jpg": "/crochet/static/media/bunny3.2d3a642d26c352488428.jpg",
     "static/media/bunny5.jpg": "/crochet/static/media/bunny5.d0aa294030cb89c91e32.jpg",
     "static/media/bunny2.jpg": "/crochet/static/media/bunny2.1e8737b006156ea20a0e.jpg",
     "static/media/bear1.jpg": "/crochet/static/media/bear1.a7f9b6345189ad212793.jpg",
     "static/media/doll_ukr.jpg": "/crochet/static/media/doll_ukr.befefdacf3aa1136543e.jpg",
+    "static/media/bear.jpg": "/crochet/static/media/bear.a146fee5e1ca4c4cb46d.jpg",
     "static/media/heart.jpg": "/crochet/static/media/heart.611c7757338687f649be.jpg",
     "static/media/hedgehog.jpg": "/crochet/static/media/hedgehog.52fcda78ab5b9cf16da3.jpg",
     "static/media/cat_grey.jpg": "/crochet/static/media/cat_grey.05c29600eed5934b933f.jpg",
     "static/media/elephant.jpg": "/crochet/static/media/elephant.7a5be04ca98578eeafe8.jpg",
     "static/media/bunny.jpg": "/crochet/static/media/bunny.52afc212e547e3fd7521.jpg",
+    "static/media/turtle1.jpg": "/crochet/static/media/turtle1.5875e5085b161583b4a8.jpg",
     "static/media/bebi_yoda.jpg": "/crochet/static/media/bebi_yoda.1f27c89a216c3c4255fe.jpg",
     "static/media/penguin.jpg": "/crochet/static/media/penguin.418e4103644939ca34fe.jpg",
+    "static/media/cat.jpg": "/crochet/static/media/cat.b84c9cd3c20e841ca271.jpg",
     "static/media/duck1.jpg": "/crochet/static/media/duck1.2e3e90ac2ad1fb7f8f52.jpg",
     "static/media/turtle.jpg": "/crochet/static/media/turtle.8c1f926163094ed376f7.jpg",
     "static/media/turtle_big.jpg": "/crochet/static/media/turtle_big.a07b3d88c829ec5b8ecb.jpg",
+    "static/media/cat3.jpg": "/crochet/static/media/cat3.817b9a6a0f7262ec0cae.jpg",
     "static/media/bunny_bear.jpg": "/crochet/static/media/bunny_bear.e9df71647e616f4e840e.jpg",
     "static/media/pig.jpg": "/crochet/static/media/pig.9c43da47f35cf6ff1b5d.jpg",
     "static/media/bee_big.jpg": "/crochet/static/media/bee_big.f0278b9276bfba74edaa.jpg",
@@ -44,16 +48,12 @@
     "static/media/dog2.jpg": "/crochet/static/media/dog2.928327a02e48f59f56c4.jpg",
     "static/media/octopus.jpg": "/crochet/static/media/octopus.c48efbd555d9d2aa8c29.jpg",
     "static/media/crochet.png": "/crochet/static/media/crochet.ba031b19de6dd6ecd3ce.png",
-    "static/media/slick.svg": "/crochet/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/crochet/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/crochet/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/crochet/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/crochet/index.html",
-    "main.d7696266.css.map": "/crochet/static/css/main.d7696266.css.map",
-    "main.cc8abac4.js.map": "/crochet/static/js/main.cc8abac4.js.map"
+    "main.577be3c9.css.map": "/crochet/static/css/main.577be3c9.css.map",
+    "main.5f2fc254.js.map": "/crochet/static/js/main.5f2fc254.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7696266.css",
-    "static/js/main.cc8abac4.js"
+    "static/css/main.577be3c9.css",
+    "static/js/main.5f2fc254.js"
   ]
 }
