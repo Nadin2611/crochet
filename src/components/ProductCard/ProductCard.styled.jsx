@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Swiper } from 'swiper/react';
 
 export const Card = styled.div`
   border: 1px solid #ddd;
@@ -14,6 +15,13 @@ export const Card = styled.div`
   }
 `;
 
+export const ImageContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const ProductImage = styled.img`
   height: auto;
   max-height: 160px;
@@ -24,6 +32,27 @@ export const ProductImage = styled.img`
   // &:hover {
   //   transform: scale(3);
   // }
+`;
+
+export const StyledSwiper = styled(Swiper)`
+  width: 100%;
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #000; /* Колір стрілок */
+    font-size: 12px !important;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important; /* Виправлення ширини */
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 16px; /* Менший розмір шрифта для стрілок */
+  }
 `;
 
 export const ProductTitle = styled.h3`

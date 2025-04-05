@@ -40,6 +40,10 @@ import img41 from '../../assets/images/bunny4.jpg';
 import img42 from '../../assets/images/bunny5.jpg';
 import img43 from '../../assets/images/turtle_big.jpg';
 import img44 from '../../assets/images/smurf.jpg';
+import img45 from '../../assets/images/bear.jpg';
+import img46 from '../../assets/images/turtle1.jpg';
+import img47 from '../../assets/images/cat.jpg';
+import img48 from '../../assets/images/cat3.jpg';
 
 // const initialState = {
 //   items: [
@@ -148,136 +152,166 @@ const initialState = {
       id: 1,
       name: 'Зайчик в костюмі жабки',
       price: 600,
-      image: img9,
+      images: [img9],
       pattern: '',
     },
     {
       id: 2,
       name: 'Зайчик в комбінезоні ведмедика',
       price: 700,
-      image: img38,
+      images: [img38],
       pattern: '',
     },
     {
       id: 3,
       name: 'Зайчик в комбінезоні малина',
       price: 600,
-      image: img39,
+      images: [img39],
       pattern: '',
     },
     {
       id: 4,
       name: 'Зайчик в фіолетовому комбінезоні',
       price: 700,
-      image: img40,
+      images: [img40],
       pattern: '',
     },
     {
       id: 5,
       name: 'Зайчик з бантиками',
       price: 550,
-      image: img41,
+      images: [img41],
       pattern: '',
     },
     {
       id: 6,
       name: 'Зайчик з навушниками',
       price: 600,
-      image: img42,
+      images: [img42],
       pattern: '',
     },
 
     // Котики
-    { id: 7, name: 'Котики', price: 900, image: img11, pattern: '' },
-    { id: 8, name: 'Котик менший', price: 500, image: img12, pattern: '' },
-    { id: 9, name: 'Кіт', price: 300, image: '', pattern: '' },
-    { id: 10, name: 'Котики пузатики', price: 250, image: img35, pattern: '' },
+    { id: 7, name: 'Котики', price: 900, images: [img11], pattern: '' },
+    { id: 8, name: 'Котик менший', price: 500, images: [img12], pattern: '' },
+    { id: 9, name: 'Кіт', price: 300, images: [img47], pattern: '' },
+    {
+      id: 10,
+      name: 'Котики пузатики',
+      price: 250,
+      images: [img35, img48],
+      pattern: '',
+    },
     {
       id: 11,
       name: 'Котик такий як брелок',
       price: 250,
-      image: img36,
+      images: [img36],
       pattern: '',
     },
 
     // Динозаври
-    { id: 12, name: 'Динозаврик', price: 400, image: img6, pattern: '' },
+    { id: 12, name: 'Динозаврик', price: 400, images: [img6], pattern: '' },
     {
       id: 13,
       name: 'Динозаврик великий',
       price: 500,
-      image: img7,
+      images: [img7],
       pattern: '',
     },
 
     // Слоники
-    { id: 14, name: 'Слоник', price: 300, image: img16, pattern: '' },
-    { id: 15, name: 'Слоник великий', price: 600, image: img17, pattern: '' },
+    { id: 14, name: 'Слоник', price: 300, images: [img16], pattern: '' },
+    {
+      id: 15,
+      name: 'Слоник великий',
+      price: 600,
+      images: [img17],
+      pattern: '',
+    },
 
     // Жабки
-    { id: 16, name: 'Жаба', price: 350, image: img23, pattern: '' },
-    { id: 17, name: 'Жабки', price: '***', image: img29, pattern: '' },
+    { id: 16, name: 'Жаба', price: 350, images: [img23], pattern: '' },
+    { id: 17, name: 'Жабки', price: '***', images: [img29], pattern: '' },
 
     //Джмули
-    { id: 18, name: 'Джмул великий', price: 450, image: img1, pattern: '' },
-    { id: 19, name: 'Джмулик', price: 250, image: img5, pattern: '' },
+    { id: 18, name: 'Джмул великий', price: 450, images: [img1], pattern: '' },
+    { id: 19, name: 'Джмулик', price: 250, images: [img5], pattern: '' },
 
     //Гусь
-    { id: 20, name: 'Гусь', price: 700, image: img18, pattern: '' },
-    { id: 21, name: 'Гусь менший', price: 350, image: img19, pattern: '' },
+    { id: 20, name: 'Гусь', price: 700, images: [img18], pattern: '' },
+    { id: 21, name: 'Гусь менший', price: 350, images: [img19], pattern: '' },
 
     //Собаки
-    { id: 22, name: 'Пес-куля', price: 600, image: img24, pattern: '' },
-    { id: 231, name: 'Пес-куля менший', price: 550, image: img25, pattern: '' },
+    { id: 22, name: 'Пес-куля', price: 600, images: [img24], pattern: '' },
+    {
+      id: 231,
+      name: 'Пес-куля менший',
+      price: 550,
+      images: [img25],
+      pattern: '',
+    },
 
     //  Восьминоги
-    { id: 24, name: 'Восьминіг', price: 250, image: img26, pattern: '' },
+    { id: 24, name: 'Восьминіг', price: 250, images: [img26], pattern: '' },
     {
       id: 25,
       name: 'Восьминіг перевернутий',
       price: 400,
-      image: img27,
+      images: [img27],
       pattern: '',
     },
 
     //Черепахи
-    { id: 26, name: 'Черепашки', price: 400, image: img13, pattern: '' },
+    {
+      id: 26,
+      name: 'Черепашки',
+      price: 400,
+      images: [img13, img46],
+      pattern: '',
+    },
     {
       id: 27,
       name: 'Велика черепаха',
       price: '***',
-      image: img43,
+      images: [img43],
       pattern: '',
     },
 
     // Інші тваринки
 
-    { id: 28, name: 'Стильна свинка', price: 450, image: img3, pattern: '' },
-    { id: 29, name: 'Ведмедик', price: 1000, image: img4, pattern: '' },
-    { id: 30, name: 'Скатеня', price: 250, image: img8, pattern: '' },
-    { id: 31, name: 'Пінгвінчик', price: 700, image: img10, pattern: '' },
-    { id: 32, name: 'Кити', price: 300, image: img14, pattern: '' },
-    { id: 33, name: 'Капібара', price: 250, image: img15, pattern: '' },
-    { id: 34, name: 'Змійка', price: 450, image: img22, pattern: '' },
-    { id: 35, name: 'Їжачок', price: 350, image: img30, pattern: '' },
+    { id: 28, name: 'Стильна свинка', price: 450, images: [img3], pattern: '' },
+    {
+      id: 29,
+      name: 'Ведмедик',
+      price: 1000,
+      images: [img4, img45],
+      pattern: '',
+    },
+    { id: 30, name: 'Скатеня', price: 250, images: [img8], pattern: '' },
+    { id: 31, name: 'Пінгвінчик', price: 700, images: [img10], pattern: '' },
+    { id: 32, name: 'Кити', price: 300, images: [img14], pattern: '' },
+    { id: 33, name: 'Капібара', price: 250, images: [img15], pattern: '' },
+    { id: 34, name: 'Змійка', price: 450, images: [img22], pattern: '' },
+    { id: 35, name: 'Їжачок', price: 350, images: [img30], pattern: '' },
     {
       id: 36,
       name: 'Баранчики великі',
       price: 1100,
-      image: img34,
+      images: [img34],
       pattern: '',
     },
-    { id: 37, name: 'Бейбі йода', price: 350, image: img37, pattern: '' },
+    { id: 37, name: 'Бейбі йода', price: 350, images: [img37], pattern: '' },
 
     // Ляльки
-    { id: 38, name: 'Україночки', price: 1500, image: img32, pattern: '' },
-    { id: 39, name: 'Ляльки', price: 1000, image: img33, pattern: '' },
+    { id: 38, name: 'Україночки', price: 1500, images: [img32], pattern: '' },
+    { id: 39, name: 'Ляльки', price: 1000, images: [img33], pattern: '' },
 
     //Інші вироби
-    { id: 40, name: 'Серце', price: 150, image: img28, pattern: '' },
-    { id: 41, name: 'Донат', price: 150, image: '', pattern: '' },
-    { id: 42, name: 'Дуо', price: 350, image: img2, pattern: '' },
-    { id: 43, name: 'Смурфик', price: '***', image: img44, pattern: '' },
+    { id: 40, name: 'Серце', price: 150, images: [img28], pattern: '' },
+    { id: 41, name: 'Донат', price: 150, images: [''], pattern: '' },
+    { id: 42, name: 'Дуо', price: 350, images: [img2], pattern: '' },
+    { id: 43, name: 'Смурфик', price: '***', images: [img44], pattern: '' },
   ],
 };
 const productsSlice = createSlice({
